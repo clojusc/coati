@@ -1,0 +1,9 @@
+/target
+/classes
+/checkouts
+pom.xml*
+*.jar
+*.class
+/.lein-*
+/.nrepl-*
+*.xcf
