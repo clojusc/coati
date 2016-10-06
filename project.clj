@@ -44,5 +44,7 @@
       :dependencies [
         [org.clojure/tools.namespace "0.2.11"]
         [lein-simpleton "1.3.0"]]
+      :plugins [[lein-kibit "0.1.2"]
+                [jonase/eastwood "0.2.3"]]
       :source-paths ["dev-resources/src"]
       :repl-options {:init-ns coati.dev}}})
