@@ -44,7 +44,7 @@ TBD
 
 ## License
 
-Copyright © 2016 Duncan McGreggor
+Copyright © 2016, Clojure-Aided Enrichment Center
 
 Distributed under the Apache License Version 2.0.
 

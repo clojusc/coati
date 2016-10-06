@@ -1,4 +1,4 @@
-(defproject clojusc/coati "0.1.0-SNAPSHOT"
+(defproject clojusc/coati "0.2.0-SNAPSHOT"
   :description "A Clojure wrapper for the Apache Olingo (OData) Java Library"
   :url "https://github.com/clojusc/coati"
   :scm {
@@ -10,12 +10,12 @@
   :dependencies [
     [org.clojure/clojure "1.8.0"]
     ;; Java
-    [org.apache.olingo/odata-commons-core "4.3.0-beta"]
-    [org.apache.olingo/odata-server-core "4.3.0-beta"]
-    [org.apache.olingo/odata-client-core "4.3.0-beta"]
-    [org.apache.olingo/odata-client-proxy "4.3.0-beta"]
+    [org.apache.olingo/odata-commons-core "4.3.0"]
+    [org.apache.olingo/odata-server-core "4.3.0"]
+    [org.apache.olingo/odata-client-core "4.3.0"]
+    [org.apache.olingo/odata-client-proxy "4.3.0"]
     ;; Support & Util libs
-    [clojusc/twig "0.2.3"]
+    [clojusc/twig "0.2.4"]
     [potemkin "0.4.3"]]
   :profiles {
     :uber {
@@ -31,7 +31,7 @@
       :integration :integration}}
     :doc {
       :plugins [
-        [lein-codox "0.9.5"]]
+        [lein-codox "0.10.0"]]
       :codox {
         :project {:name "coati"}
         :output-path "docs/master/current"
