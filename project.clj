@@ -13,9 +13,9 @@
     [org.apache.olingo/odata-commons-core "4.3.0"]
     [org.apache.olingo/odata-server-core "4.3.0"]
     [org.apache.olingo/odata-client-core "4.3.0"]
-    [org.apache.olingo/odata-client-proxy "4.3.0"]
+    [org.apache.olingo/odata-client-proxy "4.3.0" :exclusions [org.slf4j/slf4j-api]]
     ;; Support & Util libs
-    [clojusc/twig "0.2.5"]
+    [clojusc/twig "0.2.6"]
     [potemkin "0.4.3"]]
   :profiles {
     :uber {
